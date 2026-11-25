@@ -1,0 +1,10 @@
+City,Category,Total_Revenue,Total_Profit,Units_Sold,Transactions,Profit_Margin,Performance
+Bulawayo,Computers,3724.0,804.0,8,3,21.58968850698174,High Revenue - Low Margin
+Gweru,Accessories,1243.0,665.0,66,5,53.499597747385366,Low Revenue - High Margin
+Harare,Accessories,240.0,128.0,8,1,53.333333333333336,Low Revenue - High Margin
+Harare,Computers,665.0,145.0,1,1,21.804511278195488,Needs Review
+Harare,Mobile,2897.5,622.5,10,2,21.484037963761864,High Revenue - Low Margin
+Harare,Office Equipment,437.0,97.0,2,1,22.19679633867277,Needs Review
+Mutare,Computers,760.0,200.0,4,1,26.31578947368421,Low Revenue - High Margin
+Mutare,Mobile,2934.0,474.0,10,2,16.155419222903884,High Revenue - Low Margin
+Mutare,Office Equipment,440.0,120.0,2,1,27.27272727272727,Low Revenue - High Margin

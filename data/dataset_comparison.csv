@@ -1,0 +1,7 @@
+Metric,Original,Processed
+Total Records,20,17
+Total Columns,11,23
+Missing Unit Prices,1,0
+Non-Positive Quantities,2,0
+Duplicate Transaction IDs,0,0
+Unique Products,9,6
