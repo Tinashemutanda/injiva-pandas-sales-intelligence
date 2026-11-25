@@ -99,3 +99,18 @@ def analyse_daily_sales(df):
     )
 
     return daily_sales.reset_index()
+
+def classify_revenue(values):
+    lower = values.quantile(1 / 3)
+    upper = values.quantile(2 / 3)
+
+    classifications = np.select(
+        [
+            values >= upper,
+            values < lower
+        ],
+        ["High", "Low"],
+        default="Medium"
+    )
+
+    return classifications, lower, upper
