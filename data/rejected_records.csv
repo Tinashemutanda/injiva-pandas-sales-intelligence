@@ -1,0 +1,4 @@
+Transaction_ID,Date,Product,Category,Quantity,Unit_Price,Unit_Cost,Salesperson,City,Payment_Method,Discount_Percent,Rejection_Reason
+TX009,2026-01-13,monitor,Computers,-2,200.0,145,John,Bulawayo,Cash,0,Possible return requires verification
+TX012,16/01/2026,Printer,Office Equipment,2,,165,Sarah,Mutare,EcoCash,0,Missing or invalid mandatory value; Missing selling price
+TX015,19-01-2026,Laptop,Computers,0,670.0,505,John,Bulawayo,Cash,10,Zero quantity requires review
