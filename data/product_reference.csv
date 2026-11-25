@@ -1,0 +1,7 @@
+Product_Code,Product,Product_Category,Reorder_Threshold
+P001,Laptop,Computers,5
+P002,Smartphone,Mobile,10
+P003,Keyboard,Accessories,20
+P004,Monitor,Computers,8
+P005,Printer,Office Equipment,5
+P006,Mouse,Accessories,25

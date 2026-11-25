@@ -1,0 +1,1 @@
+Transaction_ID,Date,Product,Category,Quantity,Unit_Price,Unit_Cost,Salesperson,City,Payment_Method,Discount_Percent,Gross_Revenue,Discount_Amount,Net_Revenue,Total_Cost,Gross_Profit,Gross_Profit_Margin,City_Total_Revenue,Contribution_Within_City,Day,Month,Year,Transaction_Segment,Product_Code,Product_Category,Reorder_Threshold,_merge

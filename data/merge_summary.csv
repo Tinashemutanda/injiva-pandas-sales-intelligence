@@ -1,0 +1,4 @@
+Dataset,Transactions,Total_Revenue,Total_Profit
+Original Financial Data,17,13340.5,3255.5
+Inner Join,17,13340.5,3255.5
+Left Join,17,13340.5,3255.5
