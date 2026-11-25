@@ -1,0 +1,12 @@
+Transaction_ID,Affected_Column,Original_Value,Issue_Description,Severity,Recommended_Action,Resolution_Status
+TX002,Date,06/01/2026,Inconsistent date format,Low,Convert to ISO date format,Pending
+TX003,Product,keyboard,Inconsistent product name,Low,Standardise product name,Pending
+TX005,Date,09-01-2026,Inconsistent date format,Low,Convert to ISO date format,Pending
+TX006,Product,LAPTOP,Inconsistent product name,Low,Standardise product name,Pending
+TX008,Date,12/01/2026,Inconsistent date format,Low,Convert to ISO date format,Pending
+TX009,Quantity,-2,Negative quantity,High,Investigate possible return,Pending
+TX009,Product,monitor,Inconsistent product name,Low,Standardise product name,Pending
+TX012,Unit_Price,,Missing value,High,Investigate missing information,Pending
+TX012,Date,16/01/2026,Inconsistent date format,Low,Convert to ISO date format,Pending
+TX015,Quantity,0,Zero quantity,Medium,Review transaction,Pending
+TX015,Date,19-01-2026,Inconsistent date format,Low,Convert to ISO date format,Pending
