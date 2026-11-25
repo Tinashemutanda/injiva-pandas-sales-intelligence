@@ -1,4 +1,4 @@
-Payment_Method,Transactions,Revenue
-Cash,7,4717.0
-Bank Transfer,5,3064.5
-EcoCash,5,5559.0
+Payment_Method,Total_Revenue,Total_Profit,Units_Sold,Transactions,Average_Discount,Profit_Margin,Revenue_Contribution,Revenue_Rank
+EcoCash,5559.0,1119.0,21,5,5.0,20.12951969778737,41.670102320003,1
+Cash,4717.0,1339.0,64,7,2.142857142857143,28.38668645325419,35.35849480904014,2
+Bank Transfer,3064.5,797.5,26,5,3.0,26.0238211780062,22.97140287095686,3
