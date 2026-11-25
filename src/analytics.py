@@ -65,3 +65,37 @@ def generate_sales_summary(df):
             profit / revenue * 100 if revenue else np.nan
         ]
     })
+
+def analyse_daily_sales(df):
+    df = df.copy()
+    df["Date"] = pd.to_datetime(df["Date"])
+
+    daily_sales = df.groupby("Date").agg(
+        Daily_Revenue=("Net_Revenue", "sum"),
+        Daily_Profit=("Gross_Profit", "sum"),
+        Transaction_Count=("Transaction_ID", "count")
+    ).sort_index()
+
+    calendar = pd.date_range(
+        start="2026-01-01",
+        end="2026-01-31",
+        freq="D"
+    )
+
+    daily_sales = daily_sales.reindex(calendar)
+    daily_sales.index.name = "Date"
+
+    daily_sales["Transaction_Count"] = (
+        daily_sales["Transaction_Count"].fillna(0).astype(int)
+    )
+
+    daily_sales["Cumulative_Revenue"] = (
+        daily_sales["Daily_Revenue"].fillna(0).cumsum()
+    )
+
+    daily_sales["Rolling_3_Day_Average"] = (
+        daily_sales["Daily_Revenue"]
+        .rolling(window=3, min_periods=3).mean()
+    )
+
+    return daily_sales.reset_index()
